@@ -4,7 +4,7 @@
 #include <stdexcept>
 #include <string>
 #include <string.h>
-#include "sdglib.h"
+#include "../header/sdglib.h"
 #include <time.h>
 #include <random>
 #include <stdlib.h>
@@ -554,11 +554,11 @@ void displayfunc1(){
 		DrawString(220, 60, buff7);
 		char buff1[100];
 		SetColor(0, 0, 0);
-		sprintf_s(buff1, "KEIO SD-Engineer");
+		sprintf_s(buff1, "");
 		DrawString(180, 30, buff1);
 		char buff6[100];
 		SetColor(0.99, 0.54, 0);
-		sprintf_s(buff6, "Tadanori Matsui");
+		sprintf_s(buff6, "Tada Matz");
 		DrawString(390, 30, buff6);
 
 	}
@@ -840,11 +840,11 @@ void displayfunc3(){
 		//èêñºìIÇ»Ç‡ÇÃ
 		char buff3[100];
 		SetColor(0, 0, 0);
-		sprintf_s(buff3, "KEIO SD-Engineer");
+		sprintf_s(buff3, "");
 		DrawString(130, 90, buff3);
 		char buff6[100];
 		SetColor(0.99, 0.54, 0);
-		sprintf_s(buff6, "Tadanori Matsui");
+		sprintf_s(buff6, "Tada Matz");
 		DrawString(340, 90, buff6);
 		if (keyboardflag == 0){
 			char buff4[100];
@@ -1104,7 +1104,7 @@ int main(void){
 	using namespace SDGLibF;
 	definition();
 	kind = kindrandom(tt);
-	SDGLib mygraphic(800, 600, "- Fake TETRiS - (61218525 èºà‰íâè@)", -200, 600, 0, 600.0);
+	SDGLib mygraphic(800, 600, "- Fake TETRiS 2D - ", -200, 600, 0, 600.0);
 	mygraphic.SetCursor(GLUT_CURSOR_WAIT);
 	mygraphic.Keyboard(keyboardfunc);
 	mygraphic.Display(displayfunc);

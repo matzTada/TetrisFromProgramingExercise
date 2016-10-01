@@ -19,7 +19,7 @@ Do C++!!
 #include <stdexcept>
 #include <string>
 #include <string.h>
-#include "sdglib.h"
+#include "../header/sdglib.h"
 #include <time.h>
 #include <random>
 #include <stdlib.h>
@@ -497,7 +497,7 @@ void displayfunc1(){
 		DrawString(180, 30, buff1);
 		char buff6[100];
 		SetColor(0.99, 0.54, 0);
-		sprintf_s(buff6, "JugglerHoney");
+		sprintf_s(buff6, "Tada Matz");
 		DrawString(390, 30, buff6);
 	}
 }
@@ -818,12 +818,12 @@ void displayfunc2(){
 
 		char buffname[100];
 		SetColor(0.99, 0.54, 0);
-		sprintf_s(buffname, "-fake tetris 3D - JugglerHoney");
+		sprintf_s(buffname, "-fake tetris 3D - Tada Matz");
 		DrawString(40, 600, buffname);
 		
 		char buffname1[100];
 		SetColor(0.99, 0.54, 0);
-		sprintf_s(buffname, "-fake tetris 3D - JugglerHoney");
+		sprintf_s(buffname, "-fake tetris 3D - Tada Matz");
 		DrawString(40, -90, buffname1);
 
 		cleanup();
@@ -845,7 +845,7 @@ void displayfunc3(){
 		DrawString(130, 90, buff3);
 		char buff6[100];
 		SetColor(0.99, 0.54, 0);
-		sprintf_s(buff6, "JugglerHoney");
+		sprintf_s(buff6, "Tada Matz");
 		DrawString(340, 90, buff6);
 		char buff4[100];
 		SetColor(0, 0, 0);
@@ -1094,7 +1094,7 @@ int main(void){
 	using namespace SDGLibF;
 	definition();
 	kind = kindrandom(tt);
-	SDGLib mygraphic(1300, 700, "- fake tetris 3D- JugglerHoney", -100, 1200, -100, 650);
+	SDGLib mygraphic(1300, 700, "- fake tetris 3D- Tada Matz", -100, 1200, -100, 650);
 	mygraphic.SetCursor(GLUT_CURSOR_WAIT);
 	mygraphic.Display(displayfunc);
 	mygraphic.Keyboard(keyboardfunc);
