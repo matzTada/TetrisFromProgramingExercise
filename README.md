@@ -2,10 +2,10 @@
 Tetris 2D & 3D program by OpenCV through glut over C++
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=3JQxXLnwwAM
-" target="_blank"><img src="http://img.youtube.com/vi/3JQxXLnwwAM/0.jpg " 
+" target="_blank"><img src="http://img.youtube.com/vi/3JQxXLnwwAM/0.jpg" 
 alt="movie on youtube" width=40% border="10" /></a>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=bJmyOp9YOgo
-" target="_blank"><img src="http://img.youtube.com/vi/bJmyOp9YOgo/0.jpg " 
+" target="_blank"><img src="http://img.youtube.com/vi/bJmyOp9YOgo/0.jpg" 
 alt="movie on youtube" width=40% border="10" /></a>  
 [Fake tetris 2D on youtube](https://www.youtube.com/watch?v=3JQxXLnwwAM) [Fake tetris 3D on youtube](https://www.youtube.com/watch?v=bJmyOp9YOgo)  
 
