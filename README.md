@@ -15,7 +15,8 @@ OpenGL with glut.h
 ## Preparation
 Preparation to make graphics work.  
 
-* glut.h
+* glut
+	- installing [https://tokoik.github.io/opengl/libglut.html](https://tokoik.github.io/opengl/libglut.html) (in Japanese)
 * sdglib (made by professors)
 
 * <https://matztada.github.io>  
@@ -27,3 +28,4 @@ pro may not be good.
 ## Images
 
 <a><img src="https://matztada.github.io/images/logo.jpg" alt="" width=50%></a>  
+
