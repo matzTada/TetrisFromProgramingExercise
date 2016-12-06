@@ -30,7 +30,7 @@ Developed in Visual Studio 2013.
 Preparation to make graphics work.  
 
 * glut
-	- Must be installed.
+	- Must be installed. (Can download here on 2016/12/6  http://ja.osdn.net/projects/sfnet_cppopengl3dfunc/downloads/cppopengl3dfunc/GLUT%20FILES%20(needed)/glut-3.7.6-bin.zip/)
 	- Please follow the instruction in <http://qiita.com/masarkey/items/fdc97c6ff2561aea4ad9> (in Japanese)
 	- I tried the Plan A in the website.
 		- copy ```glut.h``` in C:\Program Files (x86)\Windows Kits\8.1\Include\um\gl
