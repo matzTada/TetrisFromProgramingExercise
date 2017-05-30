@@ -1,4 +1,4 @@
-#Fake Tetris 2D & 3D
+# Fake Tetris 2D & 3D
 Tetris 2D & 3D program by OpenCV through glut over C++
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=3JQxXLnwwAM
