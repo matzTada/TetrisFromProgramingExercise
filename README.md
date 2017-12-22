@@ -9,7 +9,7 @@ alt="movie on youtube" width=40% border="10" /></a>
 alt="movie on youtube" width=40% border="10" /></a>  
 [Fake tetris 2D on youtube](https://www.youtube.com/watch?v=3JQxXLnwwAM) [Fake tetris 3D on youtube](https://www.youtube.com/watch?v=bJmyOp9YOgo)  
 
-The final assignment for "Programming practice" in 2nd semester of System Design Engineering by Professor Nishi and Professor Takahashi.  
+The final assignment for "Programming practice" in 2nd semester of System Design Engineering by Prof. Nishi and Prof. Takahashi.  
 OpenGL is handled with glut.
 Developed in Visual Studio 2013.
 
